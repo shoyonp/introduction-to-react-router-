@@ -6,8 +6,6 @@ const PostDetails = () => {
   const navigate = useNavigate();
   const { id, title, body } = post;
 
-  console.log(postId);
-
   const handleGoBack = () => {
     navigate(-1);
   };
